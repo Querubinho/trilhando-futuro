@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Arimo:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Shrikhand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Arimo:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Shrikhand&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Arimo:ital,wght@0,400..700;1,400..700&family=League+Gothic&family=Oswald:wght@200..700&family=Shrikhand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    height: 110vh;
+    font-family: "Arimo", sans-serif;
+    background: linear-gradient(to bottom, white 75%, #AFDAFE 150%);
+}
+
+
+header {
+    background-color: #AFDAFE;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 5px;
+    flex: 28%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sla {
+    flex: 36%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sla a{
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+    color: white;
+}
+
+.main {
+    margin-top: 10px;
+    height: 80vh;
+}
+
+.main h2{
+    font-family: "Shrikhand", serif;
+    color: #C0EE86;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+
+    
+}
+
+.for {
+    display: inline-block;
+    padding: 20px;
+    background-color: #ffffffa8;
+    border-radius: 10px;
+    
+}
+
+.for input{
+    border: #a2c6e2 solid 5px;
+    background-color: #d9eeff;
+    opacity: 0,9;
+    width: 300px;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+h1{
+    color: white;
+    font-size: 35px;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    border: #a2c6e2 solid 5px;
+    background-color: #d9eeff;
+    opacity: 0,9;
+    width: 310px;
+}
+
+button:hover{
+    transition: 500ms linear;
+    transform: scale(1.1);
+
+}
+
+input:hover{
+    transition: 500ms linear;
+    transform: scale(1.1);
+}
+
+.cap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    z-index: -1;
+}
