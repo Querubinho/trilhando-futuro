@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Arimo:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Shrikhand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Arimo:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Shrikhand&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Arimo:ital,wght@0,400..700;1,400..700&family=League+Gothic&family=Oswald:wght@200..700&family=Shrikhand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    height: 150vh;
+    font-family: "Arimo", sans-serif;
+    background: linear-gradient(to bottom, white 75%, #AFDAFE 150%);
+}
+
+
+header {
+    background-color: #AFDAFE;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 5px;
+    flex: 28%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sla {
+    flex: 36%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sla a{
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+    color: white;
+}
+.sla img{
+    margin-top: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.painel {
+    background-color: #2c4c67;
+    width: auto;
+    height: 300px;
+    color: white;
+}
+
+.painel h2{
+    text-align: center;
+}
+
+.painel2 {
+    background-color: #5b84a7;
+    width: auto;
+    height: 50px;
+}
